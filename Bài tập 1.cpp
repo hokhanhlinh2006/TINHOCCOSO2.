@@ -17,7 +17,7 @@ void nhap_thi_sinh(ThiSinh *ts, int ma) {
     fgets(ts->ten, sizeof(ts->ten), stdin);
     ts->ten[strcspn(ts->ten, "\n")] = 0; 
 
-    printf("Nhap ngay sinh sunh vien (dd/mm/yyyy): ");
+    printf("Nhap ngay sinh sinh vien (dd/mm/yyyy): ");
     fgets(ts->ngay_sinh, sizeof(ts->ngay_sinh), stdin);
     ts->ngay_sinh[strcspn(ts->ngay_sinh, "\n")] = 0; 
     // Nhap diem tung mon 
